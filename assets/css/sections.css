@@ -594,12 +594,13 @@
 }
 
 .cert-badge {
-    background: var(--color-gray-100);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     padding: var(--spacing-6);
     border-radius: var(--radius-xl);
     text-align: center;
     transition: all var(--transition-base);
     border: 2px solid transparent;
+    box-shadow: var(--shadow-md);
 }
 
 .cert-badge:hover {
@@ -609,32 +610,25 @@
     transform: translateY(-4px);
 }
 
-.cert-badge.highlighted {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-    color: var(--color-white);
-    border-color: var(--color-accent);
-}
-
 .cert-icon {
     font-size: var(--font-size-3xl);
     margin-bottom: var(--spacing-3);
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
-.cert-badge.highlighted .cert-icon {
-    color: var(--color-accent);
+.cert-badge:hover .cert-icon {
+    color: var(--color-primary);
 }
 
 .cert-badge p {
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-medium);
-    color: var(--color-gray-800);
+    color: var(--color-white);
     margin: 0;
 }
 
-.cert-badge.highlighted p {
-    color: var(--color-white);
-    font-weight: var(--font-weight-bold);
+.cert-badge:hover p {
+    color: var(--color-primary-dark);
 }
 
 /* ========================================
