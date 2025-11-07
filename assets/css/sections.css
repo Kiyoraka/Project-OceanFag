@@ -349,7 +349,7 @@
 
 .vision-card,
 .mission-card {
-    background: var(--color-primary);
+    background: var(--color-primary-dark);
     padding: var(--spacing-10);
     border-radius: var(--radius-2xl);
     transition: all var(--transition-base);
