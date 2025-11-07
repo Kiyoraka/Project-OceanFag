@@ -1,0 +1,141 @@
+/**
+ * Ocean FG - CSS Variables
+ * Theme colors extracted from company profile PDF
+ */
+
+:root {
+    /* Primary Colors - From Screenshot/PDF */
+    --color-primary: #0089D0;           /* Ocean Blue - Main brand color */
+    --color-primary-dark: #006BA8;      /* Darker blue for hover states */
+    --color-primary-light: #33A3DC;     /* Lighter blue for backgrounds */
+    --color-accent: #BFDE00;            /* Lime Yellow - Diagonal accents */
+    --color-accent-dark: #9FBE00;       /* Darker yellow for hover */
+
+    /* Neutral Colors */
+    --color-black: #000000;             /* Logo, headings */
+    --color-white: #FFFFFF;             /* Backgrounds, light text */
+    --color-gray-100: #F5F5F5;          /* Light background sections */
+    --color-gray-200: #E0E0E0;          /* Borders, dividers */
+    --color-gray-300: #CCCCCC;          /* Disabled states */
+    --color-gray-400: #999999;          /* Secondary text */
+    --color-gray-600: #666666;          /* Body text light */
+    --color-gray-800: #333333;          /* Body text dark */
+    --color-gray-900: #1A1A1A;          /* Headings dark */
+
+    /* Semantic Colors */
+    --color-success: #10B981;           /* Success messages */
+    --color-error: #EF4444;             /* Error messages */
+    --color-warning: #F59E0B;           /* Warning messages */
+    --color-info: #3B82F6;              /* Info messages */
+
+    /* Typography */
+    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-secondary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-monospace: 'Courier New', Courier, monospace;
+
+    /* Font Sizes */
+    --font-size-xs: 0.75rem;            /* 12px */
+    --font-size-sm: 0.875rem;           /* 14px */
+    --font-size-base: 1rem;             /* 16px */
+    --font-size-lg: 1.125rem;           /* 18px */
+    --font-size-xl: 1.25rem;            /* 20px */
+    --font-size-2xl: 1.5rem;            /* 24px */
+    --font-size-3xl: 1.875rem;          /* 30px */
+    --font-size-4xl: 2.25rem;           /* 36px */
+    --font-size-5xl: 3rem;              /* 48px */
+    --font-size-6xl: 3.75rem;           /* 60px */
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    --line-height-loose: 2;
+
+    /* Spacing Scale */
+    --spacing-1: 0.25rem;               /* 4px */
+    --spacing-2: 0.5rem;                /* 8px */
+    --spacing-3: 0.75rem;               /* 12px */
+    --spacing-4: 1rem;                  /* 16px */
+    --spacing-5: 1.25rem;               /* 20px */
+    --spacing-6: 1.5rem;                /* 24px */
+    --spacing-8: 2rem;                  /* 32px */
+    --spacing-10: 2.5rem;               /* 40px */
+    --spacing-12: 3rem;                 /* 48px */
+    --spacing-16: 4rem;                 /* 64px */
+    --spacing-20: 5rem;                 /* 80px */
+    --spacing-24: 6rem;                 /* 96px */
+    --spacing-32: 8rem;                 /* 128px */
+
+    /* Border Radius */
+    --radius-sm: 0.25rem;               /* 4px */
+    --radius-base: 0.5rem;              /* 8px */
+    --radius-lg: 0.75rem;               /* 12px */
+    --radius-xl: 1rem;                  /* 16px */
+    --radius-2xl: 1.5rem;               /* 24px */
+    --radius-full: 9999px;              /* Full circle */
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Z-Index Scale */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal-backdrop: 1040;
+    --z-index-modal: 1050;
+    --z-index-popover: 1060;
+    --z-index-tooltip: 1070;
+
+    /* Breakpoints (for reference in media queries) */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+
+    /* Container Max Widths */
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+    --container-2xl: 1400px;
+
+    /* Specific Component Variables */
+    --navbar-height: 80px;
+    --navbar-height-mobile: 70px;
+    --hero-min-height: 100vh;
+    --section-padding: var(--spacing-20);
+    --section-padding-mobile: var(--spacing-12);
+
+    /* Diagonal Design Variables (matching PDF) */
+    --diagonal-angle: 15deg;
+    --diagonal-width: 250px;
+}
+
+/* Dark Mode Variables (Optional - for future enhancement) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #33A3DC;
+        --color-gray-100: #1A1A1A;
+        --color-gray-800: #E0E0E0;
+        --color-gray-900: #F5F5F5;
+    }
+}

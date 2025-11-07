@@ -1,0 +1,36 @@
+/**
+ * Ocean FG - Base CSS (Master File)
+ * This file imports all CSS modules in the correct order
+ *
+ * Architecture:
+ * 1. Variables - Theme colors, spacing, typography settings
+ * 2. Reset - Normalize browser defaults
+ * 3. Typography - Font styles and text utilities
+ * 4. Layout - Grid systems, containers, utilities (Phase 2)
+ * 5. Components - Buttons, cards, badges, forms (Phase 2)
+ * 6. Sections - Hero, About, Services, etc. (Phase 2-5)
+ * 7. Animations - Scroll effects, transitions (Phase 6)
+ */
+
+/* Phase 1: Foundation */
+@import 'variables.css';
+@import 'reset.css';
+@import 'typography.css';
+
+/* Phase 2: Layout & Components (will be added) */
+@import 'layout.css';
+@import 'components.css';
+
+/* Phase 3-5: Page Sections (will be added) */
+@import 'sections.css';
+
+/* Phase 6: Animations (will be added) */
+@import 'animations.css';
+
+/**
+ * Note: This modular architecture allows for:
+ * - Easy maintenance (each file has specific responsibility)
+ * - Better organization (separation of concerns)
+ * - Faster development (can work on individual modules)
+ * - Performance optimization (can inline critical CSS later)
+ */

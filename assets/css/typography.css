@@ -1,0 +1,278 @@
+/**
+ * Ocean FG - Typography
+ * Font styles, headings, and text utilities
+ */
+
+/* Headings */
+h1 {
+    font-size: var(--font-size-5xl);
+    font-weight: var(--font-weight-extrabold);
+    line-height: var(--line-height-tight);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-6);
+}
+
+h2 {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-5);
+}
+
+h3 {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-4);
+}
+
+h4 {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-tight);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-3);
+}
+
+h5 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-normal);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-3);
+}
+
+h6 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-normal);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-2);
+}
+
+/* Paragraphs */
+p {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-gray-800);
+    margin-bottom: var(--spacing-4);
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* Lead Text */
+.lead {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-gray-600);
+    font-weight: var(--font-weight-normal);
+}
+
+/* Small Text */
+.text-sm {
+    font-size: var(--font-size-sm);
+}
+
+.text-xs {
+    font-size: var(--font-size-xs);
+}
+
+/* Large Text */
+.text-lg {
+    font-size: var(--font-size-lg);
+}
+
+.text-xl {
+    font-size: var(--font-size-xl);
+}
+
+/* Font Weights */
+.font-light {
+    font-weight: var(--font-weight-light);
+}
+
+.font-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.font-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.font-semibold {
+    font-weight: var(--font-weight-semibold);
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.font-extrabold {
+    font-weight: var(--font-weight-extrabold);
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-black {
+    color: var(--color-black);
+}
+
+.text-gray-600 {
+    color: var(--color-gray-600);
+}
+
+.text-gray-800 {
+    color: var(--color-gray-800);
+}
+
+/* Text Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Text Transform */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Links */
+a.link-primary {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: all var(--transition-base);
+}
+
+a.link-primary:hover {
+    color: var(--color-primary-dark);
+    text-decoration-thickness: 2px;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid var(--color-primary);
+    padding-left: var(--spacing-4);
+    margin: var(--spacing-6) 0;
+    font-style: italic;
+    color: var(--color-gray-600);
+}
+
+/* Lists */
+ul.list-disc {
+    list-style-type: disc;
+    padding-left: var(--spacing-6);
+}
+
+ul.list-disc li {
+    margin-bottom: var(--spacing-2);
+}
+
+ol.list-decimal {
+    list-style-type: decimal;
+    padding-left: var(--spacing-6);
+}
+
+ol.list-decimal li {
+    margin-bottom: var(--spacing-2);
+}
+
+/* Strong & Em */
+strong {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray-900);
+}
+
+em {
+    font-style: italic;
+}
+
+/* Code */
+code {
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+    background-color: var(--color-gray-100);
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--radius-sm);
+    color: var(--color-primary-dark);
+}
+
+/* Responsive Typography */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: var(--font-size-4xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-3xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-2xl);
+    }
+
+    h4 {
+        font-size: var(--font-size-xl);
+    }
+
+    .lead {
+        font-size: var(--font-size-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: var(--font-size-3xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-xl);
+    }
+
+    h4 {
+        font-size: var(--font-size-lg);
+    }
+
+    p {
+        font-size: var(--font-size-sm);
+    }
+
+    .lead {
+        font-size: var(--font-size-base);
+    }
+}
