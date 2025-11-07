@@ -645,6 +645,10 @@
     background: var(--color-gray-100);
 }
 
+.projects .section-title {
+    color: var(--color-white);
+}
+
 .timeline {
     max-width: 900px;
     margin: 0 auto var(--spacing-20);
