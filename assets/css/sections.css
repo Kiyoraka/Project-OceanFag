@@ -67,7 +67,7 @@
 .nav-link {
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
-    color: var(--color-gray-800);
+    color: var(--color-black);
     transition: color var(--transition-base);
     position: relative;
 }
