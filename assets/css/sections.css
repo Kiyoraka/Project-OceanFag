@@ -564,6 +564,7 @@
     font-size: var(--font-size-base);
     line-height: var(--line-height-relaxed);
     color: var(--color-gray-600);
+    text-align: justify;
 }
 
 .service-overlay {
