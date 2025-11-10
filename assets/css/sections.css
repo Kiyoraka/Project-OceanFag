@@ -253,13 +253,13 @@
 
 .hero-card.middle {
     z-index: 2;
-    transform: scale(0.95) translate(15px, 15px);
+    transform: scale(0.95) translate(100px, 0);
     opacity: 0.6;
 }
 
 .hero-card.back {
     z-index: 1;
-    transform: scale(0.9) translate(30px, 30px);
+    transform: scale(0.9) translate(200px, 0);
     opacity: 0.3;
 }
 
