@@ -813,12 +813,12 @@
     justify-content: center;
     transition: all var(--transition-base);
     border: 2px solid var(--color-primary);
-    min-height: 150px;
+    min-height: 195px;
 }
 
 .client-logo img {
     max-width: 100%;
-    max-height: 120px;
+    max-height: 156px;
     width: auto;
     height: auto;
     object-fit: contain;
