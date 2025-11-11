@@ -168,6 +168,10 @@
 .hero-text {
     flex: 1;
     color: var(--color-white);
+    background: rgba(0, 0, 0, 0.5);
+    padding: var(--spacing-12);
+    border-radius: var(--radius-xl);
+    backdrop-filter: blur(8px);
 }
 
 .hero-company {
